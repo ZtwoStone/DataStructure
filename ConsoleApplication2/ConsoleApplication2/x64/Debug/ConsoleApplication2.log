@@ -1,7 +1,8 @@
 ﻿  ConsoleApplication2.cpp
-d:\vs-app\datastructure\consoleapplication2\consoleapplication2\consoleapplication2.cpp(92): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-  d:\vs-app\datastructure\consoleapplication2\consoleapplication2\consoleapplication2.cpp(92): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-  d:\vs-app\datastructure\consoleapplication2\consoleapplication2\consoleapplication2.cpp(92): note: 缺失的可变参数 2 为格式字符串“%c”所需
-  d:\vs-app\datastructure\consoleapplication2\consoleapplication2\consoleapplication2.cpp(92): note: 此参数用作缓冲区大小
+d:\vs-app\datastructure\consoleapplication2\consoleapplication2\consoleapplication2.cpp(321): warning C4101: “result”: 未引用的局部变量
+d:\vs-app\datastructure\consoleapplication2\consoleapplication2\consoleapplication2.cpp(384): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  d:\vs-app\datastructure\consoleapplication2\consoleapplication2\consoleapplication2.cpp(384): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  d:\vs-app\datastructure\consoleapplication2\consoleapplication2\consoleapplication2.cpp(384): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  d:\vs-app\datastructure\consoleapplication2\consoleapplication2\consoleapplication2.cpp(384): note: 此参数用作缓冲区大小
   ConsoleApplication2.vcxproj -> D:\VS-App\DataStructure\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe
   ConsoleApplication2.vcxproj -> D:\VS-App\DataStructure\ConsoleApplication2\x64\Debug\ConsoleApplication2.pdb (Full PDB)
