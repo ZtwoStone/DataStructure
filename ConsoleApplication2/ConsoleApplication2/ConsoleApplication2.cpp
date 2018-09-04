@@ -9,6 +9,7 @@
 
 // #include "LinkTable.h"
 
+#include "RadixSort.h"
 
 
 void foreachArray(int list[], int size) {
@@ -367,6 +368,13 @@ void testMergeSort() {
 	foreachArray(list, 10);
 }
 
+void testRadixSort() {
+	int list[] = { 108,35,956,15,104,80,29,41,140,7 };
+	foreachArray(list, 10);
+	LSDRadixSort(list, 10);
+	foreachArray(list, 10);
+	
+}
 
 //   ººÅµËþ
 void hannuota(int n, int start, int goal, int temp) {
@@ -407,7 +415,8 @@ int main()
 	// testInsertSort();
 	// testShellSort();
 	// testBubbleSort();
-	testQuickSort();
+	// testQuickSort();
+	testRadixSort();
 	return 0;
 
 }
